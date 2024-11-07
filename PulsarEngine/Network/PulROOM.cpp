@@ -57,7 +57,7 @@ static void BeforeROOMSend(RKNet::PacketHolder<PulROOM>* packetHolder, PulROOM* 
                 raceCount = 31;
                 break;
             case(0xA):
-                raceCount = 63;
+                raceCount = 249;
                 break;
             case(0xC):
                 raceCount = 1;
